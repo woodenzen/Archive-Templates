@@ -6,7 +6,7 @@
             "name": "Will Simpson",
             "url": "http://kestrelcreek.com.com/",
             "email": "linux.photo.geek@gmail.com",
-            "comment": "Based upon the unique, 'Dark Graphite' Bear app theme. For better results, set The Archive's font to a variable-width font of your choice. For best results, download Apple's San Francisco font (https://developer.apple.com/fonts/) and set The Archive's font to 'SFProText-Regular'. Last updated: February 12, 2022."
+            "comment": "Based upon the unique, 'Dark Graphite' Bear app theme. For better results, set The Archive's font to a variable-width font of your choice. For best results, download Apple's San Francisco font (https://developer.apple.com/fonts/) and set The Archive's font to 'SFMono-Regular'. Last updated: February 12, 2022."
         },
     ],
     "version": "1.0",
@@ -41,22 +41,22 @@
             "backgroundColor": "#4292D2",
             "unfocusedBackgroundColor": "#426C8E"
         },
-        "border": "#2C2D2F",
+        "border": "#2C2D2F"
     },
     "styles": {
         "base": {
             "color": "#DDDDDD",
         },
         "h1": {
-            "font": { "name": "SFProText-Medium", "size": 22 },
+            "font": { "name": "SFMono-Medium", "size": 22 },
             "syntax": { "color" : "#535354" }
         },
         "h2": {
-            "font": { "name": "SFProText-Medium", "size": 20 },
+            "font": { "name": "SFMono-Medium", "size": 20 },
             "syntax": { "color" : "#535354" }
         },
         "h3": {
-            "font": { "name": "SFProText-Medium", "size": 18 },
+            "font": { "name": "SFMono-Medium", "size": 18 },
             "syntax": { "color" : "#535354" }
         },
         "h4": {
@@ -76,14 +76,14 @@
             "syntax": { "color" : "#535354" }
         },
         "codeBlock": {
-            "font": { "name": "Menlo-Regular", "size": 16 },
+            "font": { "name": "Monaco", "size": 16 },
             "color": "#FEFEFE",
-            "backgroundColor": "#2C2D2F",
+            "backgroundColor": "#324a59"
         },
         "inlineCode": {
-            "font": { "name": "Menlo-Regular", "size": 16 },
+            "font": { "name": "Monaco", "size": 16 },
             "color": "#FEFEFE",
-            "backgroundColor": "#2C2D2F",
+            "backgroundColor": "#324a59"
         },
         "blockquote": {
             "syntax": { "color" : "#999999" },
@@ -98,30 +98,32 @@
         },
         "strong": {
             "color": "#EEEEEE",
-            "backgroundColor": "#426C8E"
+            "font": {
+                "style": "bold"
+            },
+            "backgroundColor": "#1E2022"
         },
         "image": {
             "color": "#BEBEBE",
             "syntax": { "color" : "#535354" }
         },
         "footnote": {
-            "color": "#616161",
-            "syntax": { "color" : "#535354" }
+            "color": "#66cccc",
+            "syntax": {
+                "color": "#66cccc"
+            }
         },
         "link": {
-            "color": "#4AA8FB",
-            "syntax": { "color" : "#535354" }
+            "color": "#3c95fa",
+            "syntax": { "color" : "#6b7aff" }
         },
         "referenceDefinition": {
-            "color": "#BEBEBE",
-            "syntax": { "color" : "#535354" }
+            "color": "#66cccc",
+            "syntax": { "color" : "#66cccc" }
         },
         "comment": {
             "color": "#999999",
             "font": { "style": "regular" }
-        },
-        "footnote": {
-            "color": "#e5775b"
         }
     }
 }
