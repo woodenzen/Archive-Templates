@@ -18,8 +18,12 @@
             "unfocusedBackgroundColor": "#535354"
         },
         "highlight": {
+            "color": "#F8F8F0",
             "backgroundColor": "#4292D2",
             "unfocusedBackgroundColor": "#4292D2"
+        },
+        "invisibles": {
+            "color": "#3B3A32"
         }
     },
     "savedSearchesSidebar": {
