@@ -1,18 +1,6 @@
 {
     "name": "Solarized",
     "style": "Light",
-    "author": [
-        {
-            "name": "Ethan Schoonover"
-        },
-        {
-            "name": "Rudd Fawcett",
-            "email": "rudd.fawcett@gmail.com"
-        },
-        {
-            "name": "Christian Tietze"
-        }
-    ],
     "version": "1.2",
 
     "editor": {
